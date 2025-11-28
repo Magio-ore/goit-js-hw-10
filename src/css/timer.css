@@ -1,0 +1,101 @@
+.datetime-picker{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 272px;
+    height: 40px;
+    font: 400 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding-left: 16px;
+}
+
+.datetime-picker:hover {
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: 272px;
+    height: 40px;
+}
+
+.datetime-picker:focus{
+    border: 1px solid #4e75ff;
+    border-radius: 4px;
+    width: 272px;
+    height: 40px;
+    outline: none;
+}
+.datetime-picker:disabled{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 272px;
+    height: 40px;
+    outline: none;
+    font: 400 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #808080;
+    background: #fafafa;
+}
+
+.timer {
+    display: flex;
+    gap: 10px;
+    margin-top: 32px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.value {
+    font: 400 40px / 1.2 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label {
+    font: 400 16px / 1.5 "Montserrat", sans-serif;
+    color: #2e2f42;
+}
+
+.button-start:disabled{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    background: #cfcfcf;
+    border: none;
+    cursor: not-allowed;
+    font: 500 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #989898;
+}
+
+.button-start:enabled {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    background: #4e75ff;
+    border: none;
+    cursor: pointer;
+    font: 500 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.button-start:hover {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    border: none;
+    background: #6c8cff;
+    font: 500 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
