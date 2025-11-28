@@ -15,14 +15,14 @@
   <main>
     <div class="container">
       <form class="form">
-        <label>
+        <label class="delay-label">
           Delay (ms)
-          <input type="number" name="delay" required />
+          <input type="number" name="delay" required class="delay-input" />
         </label>
 
-        <fieldset>
+        <fieldset class="state-fieldset">
           <legend>State</legend>
-          <label>
+          <label class="state-label">
             <input type="radio" name="state" value="fulfilled" required />
             Fulfilled
           </label>
@@ -32,7 +32,7 @@
           </label>
         </fieldset>
 
-        <button type="submit">Create notification</button>
+        <button type="submit" class="button-submit">Create notification</button>
       </form>
       <load src="./partials/back-link.html" />
     </div>

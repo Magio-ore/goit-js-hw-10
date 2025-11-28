@@ -1,0 +1,112 @@
+.form{
+    width: 360px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.delay-label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font: 400 16px / 150% "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.state-fieldset{
+    margin-bottom: 24px;
+    font: 400 16px / 150% "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: flex;
+    justify-content: center;
+    max-width: 360px;
+    max-height: 78px;
+    gap:48px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.state-fieldset:hover{
+    margin-bottom: 24px;
+    font: 400 16px / 150% "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: flex;
+    justify-content: center;
+    max-width: 360px;
+    max-height: 78px;
+    gap:48px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.state-label{
+    font: 400 16px / 150% "Montserrat", sans-serif;
+    color: #2e2f42;
+}
+
+.delay-input{
+    margin-bottom: 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    max-width: 360px;
+    height: 40px;
+    font: 400 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding-left: 16px;
+}
+
+.delay-input:hover {
+    border: 1px solid #000;
+    border-radius: 4px;
+    max-width: 360px;
+    height: 40px;
+}
+
+.delay-input:focus{
+    border: 1px solid #4e75ff;
+    border-radius: 4px;
+    max-width: 360px;
+    height: 40px;
+    outline: none;
+}
+.delay-input:disabled{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    outline: none;
+    font: 400 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #808080;
+    background: #fafafa;
+}
+
+.button-submit{
+    border-radius: 8px;
+    padding-block: 8px;
+    padding-inline: 16px;
+    width: 360px;
+    height: 40px;
+    border: none;
+    background: #4e75ff;
+    color: #fff;
+    font: 500 16px / 150% "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+}
+
+.button-submit:hover{
+    border-radius: 8px;
+    padding-block: 8px;
+    padding-inline: 16px;
+    width: 360px;
+    height: 40px;
+    border: none;
+    background: #6c8cff;
+    color: #fff;
+    font: 500 16px / 150% "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+}
